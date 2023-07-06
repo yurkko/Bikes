@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
 		element.childNodes.forEach((node) => {
 			if (node.nodeName.match(/^H\d/)) {
 				const obj = {
-					header: node.nodeName,
+					name: node.nodeName,
 					content: node.textContent,
 				};
 				textNodes.push(obj);
