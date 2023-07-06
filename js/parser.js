@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", () => {
 		});
 	}
 	recursy(body);
-	function reparse() {
+	function parser() {
 		fetch("https://jsonplaceholder.typicode.com/posts", {
 			method: "POST",
 			headers: {
